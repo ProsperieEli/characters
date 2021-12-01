@@ -18,6 +18,7 @@ export default function Character({ head, middle, bottom }) {
 
         <article
           className="middle"
+          aria-label="middle"
           style={{
             backgroundImage: `url(./${middle}-middle.png)`,
             height: 150,
@@ -28,6 +29,7 @@ export default function Character({ head, middle, bottom }) {
         ></article>
         <article
           className="bottom"
+          aria-label="bottom"
           style={{
             backgroundImage: `url(./${bottom}-bottom.png)`,
             height: 150,

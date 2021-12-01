@@ -10,4 +10,8 @@ it("should render our Picker component", () => {
   const input = screen.getAllByLabelText(/New catchphase:/);
 
   expect(selectHead).toBeInTheDocument();
+  expect(SelectMiddle).toBeInTheDocument();
+  expect(selectBottom).toBeInTheDocument();
+  expect(input).toBeInTheDocument();
+  expect(container).toMatchSnapshot();
 });

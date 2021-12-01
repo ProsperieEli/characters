@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should display the Character component 1`] = `
+<div>
+  <div>
+    <section
+      style="display: flex; flex-direction: column;"
+    >
+      <article
+        aria-label="head"
+        class="head"
+        style="background-image: url(./dog-head.png); height: 150px; width: 150px; background-size: cover; background-repeat: no-repeat;"
+      />
+      <article
+        aria-label="middle"
+        class="middle"
+        style="background-image: url(./fancy-middle.png); height: 150px; width: 150px; background-size: cover; background-repeat: no-repeat;"
+      />
+      <article
+        aria-label="bottom"
+        class="bottom"
+        style="background-image: url(./blue-bottom.png); height: 150px; width: 150px; background-size: cover; background-repeat: no-repeat;"
+      />
+    </section>
+  </div>
+</div>
+`;
