@@ -4,7 +4,7 @@ export default function Display({ catchphrase }) {
   return (
     <div>
       {catchphrase.map((catchphase) => (
-        <p>{catchphase}</p>
+        <p key={catchphase}>{catchphase}</p>
       ))}
     </div>
   );

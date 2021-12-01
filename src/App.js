@@ -30,7 +30,7 @@ function App() {
           handleClick={handleClick}
         />
         <Display catchphrase={catchPhrase} />
-        <Character />
+        <Character head={head} middle={middle} bottom={bottom} />
       </header>
     </div>
   );

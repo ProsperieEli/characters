@@ -13,7 +13,7 @@ export default function Picker({
 }) {
   const headPic = ["Dog", "Duck", "Horse", "Bird"];
   const middlePic = ["Blue", "Fancy", "Red", "Pink"];
-  const bottomPic = ["Blue Jeans", "White Pants", "Single Leg"];
+  const bottomPic = ["blue", "white", "Leg"];
   return (
     <div>
       <label>
